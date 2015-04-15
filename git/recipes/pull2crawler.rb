@@ -2,7 +2,7 @@ package 'git' do
    action :install
 end
 
-git "/usr/local/bin" do
+git "/var/www/html" do
    repository "https://github.com/khara914/cic-crawler.git"
    revision "master"
    action :sync
